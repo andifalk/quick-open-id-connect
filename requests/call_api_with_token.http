@@ -1,0 +1,4 @@
+### GET request to example api
+GET http://localhost:9090/hello
+Authorization: Bearer {{$auth.token("keycloak")}}
+###

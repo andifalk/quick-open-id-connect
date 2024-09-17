@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: quick-open-id-connect
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/realms/demo/protocol/openid-connect/certs
+server:
+  port: 9090
