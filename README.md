@@ -8,6 +8,12 @@ What will we learn here:
 * Implement a resource server using authentication with JWT (JSON Web Tokens)
 * Login to Keycloak to get a JWT
 
+## Requirements
+
+* Installed Java 21 JDK
+* A Java IDE
+* Postman (if you are not using IntelliJ) to call a REST API and retrieve a JWT for authentication
+
 ## Setup
 
 First, let's install and configure Keycloak.
